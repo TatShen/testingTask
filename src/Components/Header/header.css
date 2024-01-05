@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.tittel1{
+    font-size: 4rem;
+}
+
+.massage{
+    display: block;
+    border: 1px solid rgb(245, 239, 228);
+    border-radius: 5px;
+    width: 70%;
+    margin: 3rem auto;
+}
+
+.massageText{
+    color: red;
+    font-weight: 500;
+}
+
+@media (width <=550px){
+    .tittel1{
+        font-size: 2rem;
+    }
+}
